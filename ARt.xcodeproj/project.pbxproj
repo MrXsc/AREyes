@@ -12,6 +12,14 @@
 		3F3372B921D318A1002A6C88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3372B721D318A1002A6C88 /* Main.storyboard */; };
 		3F3372BB21D318A2002A6C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3372BA21D318A2002A6C88 /* Assets.xcassets */; };
 		3F3372BE21D318A2002A6C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3372BC21D318A2002A6C88 /* LaunchScreen.storyboard */; };
+		3FA48A9F21D4BA4C00A7302B /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA48A9E21D4BA4C00A7302B /* MyViewController.swift */; };
+		3FA48AA721D4F50200A7302B /* Adoration of the Magi.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA48AA121D4F50200A7302B /* Adoration of the Magi.png */; };
+		3FA48AA821D4F50200A7302B /* Christ on the Cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA48AA221D4F50200A7302B /* Christ on the Cross.png */; };
+		3FA48AA921D4F50200A7302B /* Girl with a Pearl Earring.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA48AA321D4F50200A7302B /* Girl with a Pearl Earring.png */; };
+		3FA48AAA21D4F50200A7302B /* Mona Lisa.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA48AA421D4F50200A7302B /* Mona Lisa.png */; };
+		3FA48AAB21D4F50200A7302B /* Starry Night.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA48AA521D4F50200A7302B /* Starry Night.png */; };
+		3FA48AAC21D4F50200A7302B /* The Last Supper.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA48AA621D4F50200A7302B /* The Last Supper.png */; };
+		3FAB8A4D21D36E8300298212 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB8A4C21D36E8300298212 /* VC2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		3F3372BA21D318A2002A6C88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F3372BD21D318A2002A6C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F3372BF21D318A2002A6C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA48A9E21D4BA4C00A7302B /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		3FA48AA121D4F50200A7302B /* Adoration of the Magi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Adoration of the Magi.png"; sourceTree = "<group>"; };
+		3FA48AA221D4F50200A7302B /* Christ on the Cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Christ on the Cross.png"; sourceTree = "<group>"; };
+		3FA48AA321D4F50200A7302B /* Girl with a Pearl Earring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Girl with a Pearl Earring.png"; sourceTree = "<group>"; };
+		3FA48AA421D4F50200A7302B /* Mona Lisa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mona Lisa.png"; sourceTree = "<group>"; };
+		3FA48AA521D4F50200A7302B /* Starry Night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Starry Night.png"; sourceTree = "<group>"; };
+		3FA48AA621D4F50200A7302B /* The Last Supper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Last Supper.png"; sourceTree = "<group>"; };
+		3FAB8A4C21D36E8300298212 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,30 @@
 		3F3372B221D318A1002A6C88 /* ARt */ = {
 			isa = PBXGroup;
 			children = (
+				3FA48AA021D4F50200A7302B /* Pictures */,
 				3F3372B321D318A1002A6C88 /* AppDelegate.swift */,
 				3F3372B521D318A1002A6C88 /* ViewController.swift */,
+				3FA48A9E21D4BA4C00A7302B /* MyViewController.swift */,
+				3FAB8A4C21D36E8300298212 /* VC2.swift */,
 				3F3372B721D318A1002A6C88 /* Main.storyboard */,
 				3F3372BA21D318A2002A6C88 /* Assets.xcassets */,
 				3F3372BC21D318A2002A6C88 /* LaunchScreen.storyboard */,
 				3F3372BF21D318A2002A6C88 /* Info.plist */,
 			);
 			path = ARt;
+			sourceTree = "<group>";
+		};
+		3FA48AA021D4F50200A7302B /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				3FA48AA121D4F50200A7302B /* Adoration of the Magi.png */,
+				3FA48AA221D4F50200A7302B /* Christ on the Cross.png */,
+				3FA48AA321D4F50200A7302B /* Girl with a Pearl Earring.png */,
+				3FA48AA421D4F50200A7302B /* Mona Lisa.png */,
+				3FA48AA521D4F50200A7302B /* Starry Night.png */,
+				3FA48AA621D4F50200A7302B /* The Last Supper.png */,
+			);
+			path = Pictures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +154,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA48AA821D4F50200A7302B /* Christ on the Cross.png in Resources */,
 				3F3372BE21D318A2002A6C88 /* LaunchScreen.storyboard in Resources */,
+				3FA48AAB21D4F50200A7302B /* Starry Night.png in Resources */,
+				3FA48AAC21D4F50200A7302B /* The Last Supper.png in Resources */,
+				3FA48AA721D4F50200A7302B /* Adoration of the Magi.png in Resources */,
+				3FA48AAA21D4F50200A7302B /* Mona Lisa.png in Resources */,
+				3FA48AA921D4F50200A7302B /* Girl with a Pearl Earring.png in Resources */,
 				3F3372BB21D318A2002A6C88 /* Assets.xcassets in Resources */,
 				3F3372B921D318A1002A6C88 /* Main.storyboard in Resources */,
 			);
@@ -135,7 +173,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FAB8A4D21D36E8300298212 /* VC2.swift in Sources */,
 				3F3372B621D318A1002A6C88 /* ViewController.swift in Sources */,
+				3FA48A9F21D4BA4C00A7302B /* MyViewController.swift in Sources */,
 				3F3372B421D318A1002A6C88 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VLQ5AZ3L2;
 				INFOPLIST_FILE = ARt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +341,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VLQ5AZ3L2;
 				INFOPLIST_FILE = ARt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
