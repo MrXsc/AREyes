@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1A85B021D5F4D900EB06FB /* AllFloatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A85AF21D5F4D900EB06FB /* AllFloatButton.swift */; };
 		3F3372B421D318A1002A6C88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3372B321D318A1002A6C88 /* AppDelegate.swift */; };
 		3F3372B621D318A1002A6C88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3372B521D318A1002A6C88 /* ViewController.swift */; };
 		3F3372B921D318A1002A6C88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3372B721D318A1002A6C88 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F1A85AF21D5F4D900EB06FB /* AllFloatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFloatButton.swift; sourceTree = "<group>"; };
 		3F3372B021D318A1002A6C88 /* ARt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3372B321D318A1002A6C88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F3372B521D318A1002A6C88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			children = (
 				3FA48AA021D4F50200A7302B /* Pictures */,
 				3F3372B321D318A1002A6C88 /* AppDelegate.swift */,
+				3F1A85AF21D5F4D900EB06FB /* AllFloatButton.swift */,
 				3F3372B521D318A1002A6C88 /* ViewController.swift */,
 				3FA48A9E21D4BA4C00A7302B /* MyViewController.swift */,
 				3FAB8A4C21D36E8300298212 /* VC2.swift */,
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1A85B021D5F4D900EB06FB /* AllFloatButton.swift in Sources */,
 				3FAB8A4D21D36E8300298212 /* VC2.swift in Sources */,
 				3F3372B621D318A1002A6C88 /* ViewController.swift in Sources */,
 				3FA48A9F21D4BA4C00A7302B /* MyViewController.swift in Sources */,
