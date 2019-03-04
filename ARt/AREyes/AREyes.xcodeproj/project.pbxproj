@@ -15,6 +15,12 @@
 		805EC8D1222D3A20001C5FFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805EC8CF222D3A20001C5FFE /* LaunchScreen.storyboard */; };
 		805EC8DC222D3A20001C5FFE /* AREyesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EC8DB222D3A20001C5FFE /* AREyesTests.swift */; };
 		805EC8E7222D3A20001C5FFE /* AREyesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EC8E6222D3A20001C5FFE /* AREyesUITests.swift */; };
+		805EC906222D4CEB001C5FFE /* AllFloatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EC905222D4CEB001C5FFE /* AllFloatButton.swift */; };
+		805EC907222D4CEB001C5FFE /* AllFloatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EC905222D4CEB001C5FFE /* AllFloatButton.swift */; };
+		805EC908222D4CEB001C5FFE /* AllFloatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EC905222D4CEB001C5FFE /* AllFloatButton.swift */; };
+		805EC90A222D4D65001C5FFE /* PopMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EC909222D4D65001C5FFE /* PopMenuViewController.swift */; };
+		805EC90B222D4D65001C5FFE /* PopMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EC909222D4D65001C5FFE /* PopMenuViewController.swift */; };
+		805EC90C222D4D65001C5FFE /* PopMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EC909222D4D65001C5FFE /* PopMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,8 @@
 		805EC8E2222D3A20001C5FFE /* AREyesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AREyesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		805EC8E6222D3A20001C5FFE /* AREyesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AREyesUITests.swift; sourceTree = "<group>"; };
 		805EC8E8222D3A20001C5FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805EC905222D4CEB001C5FFE /* AllFloatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AllFloatButton.swift; path = ../../AllFloatButton.swift; sourceTree = "<group>"; };
+		805EC909222D4D65001C5FFE /* PopMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		805EC8C2222D3A1F001C5FFE /* AREyes */ = {
 			isa = PBXGroup;
 			children = (
+				805EC8F6222D491C001C5FFE /* AllBtn */,
 				805EC8C3222D3A1F001C5FFE /* AppDelegate.swift */,
 				805EC8C5222D3A1F001C5FFE /* ViewController.swift */,
 				805EC8C7222D3A1F001C5FFE /* Main.storyboard */,
@@ -106,6 +115,7 @@
 				805EC8CF222D3A20001C5FFE /* LaunchScreen.storyboard */,
 				805EC8D2222D3A20001C5FFE /* Info.plist */,
 				805EC8CA222D3A1F001C5FFE /* AREyes.xcdatamodeld */,
+				805EC90D222D4D6C001C5FFE /* PopMenu */,
 			);
 			path = AREyes;
 			sourceTree = "<group>";
@@ -126,6 +136,22 @@
 				805EC8E8222D3A20001C5FFE /* Info.plist */,
 			);
 			path = AREyesUITests;
+			sourceTree = "<group>";
+		};
+		805EC8F6222D491C001C5FFE /* AllBtn */ = {
+			isa = PBXGroup;
+			children = (
+				805EC905222D4CEB001C5FFE /* AllFloatButton.swift */,
+			);
+			path = AllBtn;
+			sourceTree = "<group>";
+		};
+		805EC90D222D4D6C001C5FFE /* PopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				805EC909222D4D65001C5FFE /* PopMenuViewController.swift */,
+			);
+			path = PopMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +287,9 @@
 			files = (
 				805EC8CC222D3A1F001C5FFE /* AREyes.xcdatamodeld in Sources */,
 				805EC8C6222D3A1F001C5FFE /* ViewController.swift in Sources */,
+				805EC906222D4CEB001C5FFE /* AllFloatButton.swift in Sources */,
 				805EC8C4222D3A1F001C5FFE /* AppDelegate.swift in Sources */,
+				805EC90A222D4D65001C5FFE /* PopMenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +297,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				805EC90B222D4D65001C5FFE /* PopMenuViewController.swift in Sources */,
+				805EC907222D4CEB001C5FFE /* AllFloatButton.swift in Sources */,
 				805EC8DC222D3A20001C5FFE /* AREyesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +307,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				805EC90C222D4D65001C5FFE /* PopMenuViewController.swift in Sources */,
+				805EC908222D4CEB001C5FFE /* AllFloatButton.swift in Sources */,
 				805EC8E7222D3A20001C5FFE /* AREyesUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

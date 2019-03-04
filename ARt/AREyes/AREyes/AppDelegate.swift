@@ -17,6 +17,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        //1. 创建窗口并且可见
+        window = UIWindow(frame: UIScreen.main.bounds) //自己定义窗口
+        window?.makeKeyAndVisible() // 设置为主窗口 并且可见
+        
+        // let  navD = Navigation
+        
+        let  vcMain = ViewController()
+        
+        let nav = UINavigationController(rootViewController: vcMain)
+        
+        window?.rootViewController = nav
+        
+        
         return true
     }
 

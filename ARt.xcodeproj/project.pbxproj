@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3F042FD321D639A400653ACB /* LoginPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F042FD221D639A400653ACB /* LoginPageVC.swift */; };
 		3F042FD521D6471E00653ACB /* popMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F042FD421D6471E00653ACB /* popMenuViewController.swift */; };
-		3F1A85B021D5F4D900EB06FB /* AllFloatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A85AF21D5F4D900EB06FB /* AllFloatButton.swift */; };
 		3F1A85B621D60F2C00EB06FB /* MyScroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A85B421D60F2C00EB06FB /* MyScroView.swift */; };
 		3F1A85B721D60F2C00EB06FB /* VCtrans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A85B521D60F2C00EB06FB /* VCtrans.swift */; };
 		3F2A9F3521D676D40034A5F9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A9F3421D676D40034A5F9 /* CardView.swift */; };
@@ -45,12 +44,12 @@
 		3FEE520A21D6185B0083BA92 /* p2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE520521D6185B0083BA92 /* p2.jpeg */; };
 		3FEE520B21D6185B0083BA92 /* p3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE520621D6185B0083BA92 /* p3.jpeg */; };
 		3FEE520C21D6185B0083BA92 /* sun-halo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE520721D6185B0083BA92 /* sun-halo.png */; };
+		805EC8F8222D494B001C5FFE /* AllFloatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EC8F7222D494B001C5FFE /* AllFloatButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F042FD221D639A400653ACB /* LoginPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageVC.swift; sourceTree = "<group>"; };
 		3F042FD421D6471E00653ACB /* popMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popMenuViewController.swift; sourceTree = "<group>"; };
-		3F1A85AF21D5F4D900EB06FB /* AllFloatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFloatButton.swift; sourceTree = "<group>"; };
 		3F1A85B421D60F2C00EB06FB /* MyScroView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyScroView.swift; sourceTree = "<group>"; };
 		3F1A85B521D60F2C00EB06FB /* VCtrans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCtrans.swift; sourceTree = "<group>"; };
 		3F2A9F3421D676D40034A5F9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -88,6 +87,7 @@
 		3FEE520521D6185B0083BA92 /* p2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p2.jpeg; sourceTree = "<group>"; };
 		3FEE520621D6185B0083BA92 /* p3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p3.jpeg; sourceTree = "<group>"; };
 		3FEE520721D6185B0083BA92 /* sun-halo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sun-halo.png"; sourceTree = "<group>"; };
+		805EC8F7222D494B001C5FFE /* AllFloatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllFloatButton.swift; path = ARt/AREyes/AREyes/AllBtn/AllFloatButton.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,7 +191,7 @@
 		3F91B80C21D7181B0054E64B /* AllFloatBtn */ = {
 			isa = PBXGroup;
 			children = (
-				3F1A85AF21D5F4D900EB06FB /* AllFloatButton.swift */,
+				805EC8F7222D494B001C5FFE /* AllFloatButton.swift */,
 			);
 			path = AllFloatBtn;
 			sourceTree = "<group>";
@@ -340,7 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F91B81221D721BB0054E64B /* WebPageViewController.swift in Sources */,
-				3F1A85B021D5F4D900EB06FB /* AllFloatButton.swift in Sources */,
+				805EC8F8222D494B001C5FFE /* AllFloatButton.swift in Sources */,
 				3FAB8A4D21D36E8300298212 /* VC2.swift in Sources */,
 				3FA1770C21D65AA900453E25 /* RegisterPageVC.swift in Sources */,
 				3F99DD7821D666DD00470FA8 /* ARt.xcdatamodeld in Sources */,

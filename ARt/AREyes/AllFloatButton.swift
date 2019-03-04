@@ -1,19 +1,21 @@
 //
 //  AllFloatButton.swift
-//  ARt
+//  AREyes
 //
-//  Created by student on 2018/12/28.
-//  Copyright © 2018年 pxy. All rights reserved.
+//  Created by Ru Zhao on 2019/3/4.
+//  Copyright © 2019年 xiaoshuo. All rights reserved.
 //
 
 import UIKit
 import AVFoundation
 import AVKit
+
 // 声明协议
 protocol FloatDelegate {
+    
     func singleClick()
     
-    func repeatClick()
+    // func repeatClick()
 }
 
 class AllFloatButton: UIButton {
@@ -99,7 +101,7 @@ class AllFloatButton: UIButton {
             self.perform(#selector(repeatClick))
         }
     }
-
+    
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.isHasMove = true
         if self.isFirstClick {
@@ -113,13 +115,13 @@ class AllFloatButton: UIButton {
         // 计算偏移量
         let offsetx = (temp?.x)! - (self.allPoint?.x)!
         let offsety = (temp?.y)! - (self.allPoint?.y)!
-
-
+        
+        
         self.center = CGPoint.init(x: self.center.x + offsetx, y: self.center.y + offsety)
         self.center = CGPoint.init(x: self.center.x , y: self.center.y + offsety)
-
+        
     }
-
+    
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.isFirstClick = true
         self.timer = Timer.init(timeInterval: TimeInterval(self.timeOfWait), repeats: false, block: { (Timer) in
@@ -177,10 +179,11 @@ class AllFloatButton: UIButton {
     @objc func singleClick() {
         self.delegate?.singleClick()
     }
-
+    
     @objc func repeatClick() {
         NSObject.cancelPreviousPerformRequests(withTarget: self, selector: #selector(singleClick), object: nil)
         self.delegate?.repeatClick()
     }
 }
+
 
