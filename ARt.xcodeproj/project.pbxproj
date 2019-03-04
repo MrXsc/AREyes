@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F042FD321D639A400653ACB /* LoginPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F042FD221D639A400653ACB /* LoginPageVC.swift */; };
+		3F042FD521D6471E00653ACB /* popMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F042FD421D6471E00653ACB /* popMenuViewController.swift */; };
 		3F1A85B021D5F4D900EB06FB /* AllFloatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A85AF21D5F4D900EB06FB /* AllFloatButton.swift */; };
+		3F1A85B621D60F2C00EB06FB /* MyScroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A85B421D60F2C00EB06FB /* MyScroView.swift */; };
+		3F1A85B721D60F2C00EB06FB /* VCtrans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A85B521D60F2C00EB06FB /* VCtrans.swift */; };
+		3F2A9F3521D676D40034A5F9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A9F3421D676D40034A5F9 /* CardView.swift */; };
+		3F2A9F3721D69A900034A5F9 /* ArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A9F3621D69A900034A5F9 /* ArtistView.swift */; };
+		3F2A9F3921D6ACAA0034A5F9 /* DevViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A9F3821D6ACAA0034A5F9 /* DevViewController.swift */; };
 		3F3372B421D318A1002A6C88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3372B321D318A1002A6C88 /* AppDelegate.swift */; };
 		3F3372B621D318A1002A6C88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3372B521D318A1002A6C88 /* ViewController.swift */; };
 		3F3372B921D318A1002A6C88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3372B721D318A1002A6C88 /* Main.storyboard */; };
 		3F3372BB21D318A2002A6C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3372BA21D318A2002A6C88 /* Assets.xcassets */; };
 		3F3372BE21D318A2002A6C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3372BC21D318A2002A6C88 /* LaunchScreen.storyboard */; };
+		3F6E5B8421D660EA00F74EAD /* FavsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E5B8321D660EA00F74EAD /* FavsViewController.swift */; };
+		3F91B81221D721BB0054E64B /* WebPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F91B81121D721BB0054E64B /* WebPageViewController.swift */; };
+		3F99DD7821D666DD00470FA8 /* ARt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F99DD7621D666DD00470FA8 /* ARt.xcdatamodeld */; };
+		3FA1770921D6543100453E25 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1770821D6543100453E25 /* Request.swift */; };
+		3FA1770C21D65AA900453E25 /* RegisterPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1770B21D65AA900453E25 /* RegisterPageVC.swift */; };
 		3FA48A9F21D4BA4C00A7302B /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA48A9E21D4BA4C00A7302B /* MyViewController.swift */; };
 		3FA48AA721D4F50200A7302B /* Adoration of the Magi.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA48AA121D4F50200A7302B /* Adoration of the Magi.png */; };
 		3FA48AA821D4F50200A7302B /* Christ on the Cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA48AA221D4F50200A7302B /* Christ on the Cross.png */; };
@@ -21,10 +33,29 @@
 		3FA48AAB21D4F50200A7302B /* Starry Night.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA48AA521D4F50200A7302B /* Starry Night.png */; };
 		3FA48AAC21D4F50200A7302B /* The Last Supper.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA48AA621D4F50200A7302B /* The Last Supper.png */; };
 		3FAB8A4D21D36E8300298212 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB8A4C21D36E8300298212 /* VC2.swift */; };
+		3FBE671A21D7413E0062DAA8 /* Hieronymus Bosch.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBE671521D7413D0062DAA8 /* Hieronymus Bosch.png */; };
+		3FBE671B21D7413E0062DAA8 /* Johannes Vermeer.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBE671621D7413D0062DAA8 /* Johannes Vermeer.png */; };
+		3FBE671C21D7413E0062DAA8 /* Leonardo da Vinci.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBE671721D7413D0062DAA8 /* Leonardo da Vinci.png */; };
+		3FBE671D21D7413E0062DAA8 /* Titian (Tiziano Vecellio).png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBE671821D7413D0062DAA8 /* Titian (Tiziano Vecellio).png */; };
+		3FBE671E21D7413E0062DAA8 /* Vincent van Gogh.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBE671921D7413D0062DAA8 /* Vincent van Gogh.png */; };
+		3FCB955D21D754AE001590E2 /* Johann Sebastian Bach - Cello Suite No. 1 in G major (BWV 1007)： I. Prelude(1).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FCB955C21D754AE001590E2 /* Johann Sebastian Bach - Cello Suite No. 1 in G major (BWV 1007)： I. Prelude(1).mp3 */; };
+		3FEE520021D617E90083BA92 /* ARtShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE51FF21D617E90083BA92 /* ARtShowViewController.swift */; };
+		3FEE520821D6185B0083BA92 /* p0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE520321D6185B0083BA92 /* p0.jpeg */; };
+		3FEE520921D6185B0083BA92 /* p1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE520421D6185B0083BA92 /* p1.jpeg */; };
+		3FEE520A21D6185B0083BA92 /* p2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE520521D6185B0083BA92 /* p2.jpeg */; };
+		3FEE520B21D6185B0083BA92 /* p3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE520621D6185B0083BA92 /* p3.jpeg */; };
+		3FEE520C21D6185B0083BA92 /* sun-halo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE520721D6185B0083BA92 /* sun-halo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F042FD221D639A400653ACB /* LoginPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageVC.swift; sourceTree = "<group>"; };
+		3F042FD421D6471E00653ACB /* popMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popMenuViewController.swift; sourceTree = "<group>"; };
 		3F1A85AF21D5F4D900EB06FB /* AllFloatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFloatButton.swift; sourceTree = "<group>"; };
+		3F1A85B421D60F2C00EB06FB /* MyScroView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyScroView.swift; sourceTree = "<group>"; };
+		3F1A85B521D60F2C00EB06FB /* VCtrans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCtrans.swift; sourceTree = "<group>"; };
+		3F2A9F3421D676D40034A5F9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3F2A9F3621D69A900034A5F9 /* ArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistView.swift; sourceTree = "<group>"; };
+		3F2A9F3821D6ACAA0034A5F9 /* DevViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevViewController.swift; sourceTree = "<group>"; };
 		3F3372B021D318A1002A6C88 /* ARt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3372B321D318A1002A6C88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F3372B521D318A1002A6C88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,6 +63,11 @@
 		3F3372BA21D318A2002A6C88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F3372BD21D318A2002A6C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F3372BF21D318A2002A6C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6E5B8321D660EA00F74EAD /* FavsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavsViewController.swift; sourceTree = "<group>"; };
+		3F91B81121D721BB0054E64B /* WebPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPageViewController.swift; sourceTree = "<group>"; };
+		3F99DD7721D666DD00470FA8 /* ARtdataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ARtdataModel.xcdatamodel; sourceTree = "<group>"; };
+		3FA1770821D6543100453E25 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		3FA1770B21D65AA900453E25 /* RegisterPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageVC.swift; sourceTree = "<group>"; };
 		3FA48A9E21D4BA4C00A7302B /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		3FA48AA121D4F50200A7302B /* Adoration of the Magi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Adoration of the Magi.png"; sourceTree = "<group>"; };
 		3FA48AA221D4F50200A7302B /* Christ on the Cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Christ on the Cross.png"; sourceTree = "<group>"; };
@@ -40,6 +76,18 @@
 		3FA48AA521D4F50200A7302B /* Starry Night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Starry Night.png"; sourceTree = "<group>"; };
 		3FA48AA621D4F50200A7302B /* The Last Supper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Last Supper.png"; sourceTree = "<group>"; };
 		3FAB8A4C21D36E8300298212 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		3FBE671521D7413D0062DAA8 /* Hieronymus Bosch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hieronymus Bosch.png"; sourceTree = "<group>"; };
+		3FBE671621D7413D0062DAA8 /* Johannes Vermeer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Johannes Vermeer.png"; sourceTree = "<group>"; };
+		3FBE671721D7413D0062DAA8 /* Leonardo da Vinci.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Leonardo da Vinci.png"; sourceTree = "<group>"; };
+		3FBE671821D7413D0062DAA8 /* Titian (Tiziano Vecellio).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Titian (Tiziano Vecellio).png"; sourceTree = "<group>"; };
+		3FBE671921D7413D0062DAA8 /* Vincent van Gogh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vincent van Gogh.png"; sourceTree = "<group>"; };
+		3FCB955C21D754AE001590E2 /* Johann Sebastian Bach - Cello Suite No. 1 in G major (BWV 1007)： I. Prelude(1).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Johann Sebastian Bach - Cello Suite No. 1 in G major (BWV 1007)： I. Prelude(1).mp3"; sourceTree = "<group>"; };
+		3FEE51FF21D617E90083BA92 /* ARtShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARtShowViewController.swift; sourceTree = "<group>"; };
+		3FEE520321D6185B0083BA92 /* p0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p0.jpeg; sourceTree = "<group>"; };
+		3FEE520421D6185B0083BA92 /* p1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p1.jpeg; sourceTree = "<group>"; };
+		3FEE520521D6185B0083BA92 /* p2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p2.jpeg; sourceTree = "<group>"; };
+		3FEE520621D6185B0083BA92 /* p3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p3.jpeg; sourceTree = "<group>"; };
+		3FEE520721D6185B0083BA92 /* sun-halo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sun-halo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F1A85B821D6119200EB06FB /* oldcodesNotUsing */ = {
+			isa = PBXGroup;
+			children = (
+				3FA48A9E21D4BA4C00A7302B /* MyViewController.swift */,
+				3FAB8A4C21D36E8300298212 /* VC2.swift */,
+			);
+			path = oldcodesNotUsing;
+			sourceTree = "<group>";
+		};
 		3F3372A721D318A1002A6C88 = {
 			isa = PBXGroup;
 			children = (
@@ -72,18 +129,81 @@
 		3F3372B221D318A1002A6C88 /* ARt */ = {
 			isa = PBXGroup;
 			children = (
+				3F6E5B8021D65D2500F74EAD /* 音乐 */,
+				3FEE520221D6185B0083BA92 /* works */,
+				3FBE671421D7413D0062DAA8 /* author */,
 				3FA48AA021D4F50200A7302B /* Pictures */,
 				3F3372B321D318A1002A6C88 /* AppDelegate.swift */,
-				3F1A85AF21D5F4D900EB06FB /* AllFloatButton.swift */,
 				3F3372B521D318A1002A6C88 /* ViewController.swift */,
-				3FA48A9E21D4BA4C00A7302B /* MyViewController.swift */,
-				3FAB8A4C21D36E8300298212 /* VC2.swift */,
+				3F91B81121D721BB0054E64B /* WebPageViewController.swift */,
+				3F042FD421D6471E00653ACB /* popMenuViewController.swift */,
+				3F91B80C21D7181B0054E64B /* AllFloatBtn */,
+				3FA1770A21D6543900453E25 /* login */,
+				3F91B80A21D717F80054E64B /* SCr */,
+				3F91B80921D717E20054E64B /* FAV */,
+				3FEE520121D618030083BA92 /* ARfunc */,
+				3F91B80B21D7180C0054E64B /* DEV */,
+				3F1A85B821D6119200EB06FB /* oldcodesNotUsing */,
 				3F3372B721D318A1002A6C88 /* Main.storyboard */,
 				3F3372BA21D318A2002A6C88 /* Assets.xcassets */,
 				3F3372BC21D318A2002A6C88 /* LaunchScreen.storyboard */,
 				3F3372BF21D318A2002A6C88 /* Info.plist */,
+				3F99DD7621D666DD00470FA8 /* ARt.xcdatamodeld */,
 			);
 			path = ARt;
+			sourceTree = "<group>";
+		};
+		3F6E5B8021D65D2500F74EAD /* 音乐 */ = {
+			isa = PBXGroup;
+			children = (
+				3FCB955C21D754AE001590E2 /* Johann Sebastian Bach - Cello Suite No. 1 in G major (BWV 1007)： I. Prelude(1).mp3 */,
+			);
+			path = "音乐";
+			sourceTree = "<group>";
+		};
+		3F91B80921D717E20054E64B /* FAV */ = {
+			isa = PBXGroup;
+			children = (
+				3F2A9F3421D676D40034A5F9 /* CardView.swift */,
+				3F6E5B8321D660EA00F74EAD /* FavsViewController.swift */,
+				3F2A9F3621D69A900034A5F9 /* ArtistView.swift */,
+			);
+			path = FAV;
+			sourceTree = "<group>";
+		};
+		3F91B80A21D717F80054E64B /* SCr */ = {
+			isa = PBXGroup;
+			children = (
+				3F1A85B421D60F2C00EB06FB /* MyScroView.swift */,
+				3F1A85B521D60F2C00EB06FB /* VCtrans.swift */,
+			);
+			path = SCr;
+			sourceTree = "<group>";
+		};
+		3F91B80B21D7180C0054E64B /* DEV */ = {
+			isa = PBXGroup;
+			children = (
+				3F2A9F3821D6ACAA0034A5F9 /* DevViewController.swift */,
+			);
+			path = DEV;
+			sourceTree = "<group>";
+		};
+		3F91B80C21D7181B0054E64B /* AllFloatBtn */ = {
+			isa = PBXGroup;
+			children = (
+				3F1A85AF21D5F4D900EB06FB /* AllFloatButton.swift */,
+			);
+			path = AllFloatBtn;
+			sourceTree = "<group>";
+		};
+		3FA1770A21D6543900453E25 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				3F042FD221D639A400653ACB /* LoginPageVC.swift */,
+				3FA1770B21D65AA900453E25 /* RegisterPageVC.swift */,
+				3FA1770821D6543100453E25 /* Request.swift */,
+			);
+			path = login;
 			sourceTree = "<group>";
 		};
 		3FA48AA021D4F50200A7302B /* Pictures */ = {
@@ -97,6 +217,38 @@
 				3FA48AA621D4F50200A7302B /* The Last Supper.png */,
 			);
 			path = Pictures;
+			sourceTree = "<group>";
+		};
+		3FBE671421D7413D0062DAA8 /* author */ = {
+			isa = PBXGroup;
+			children = (
+				3FBE671521D7413D0062DAA8 /* Hieronymus Bosch.png */,
+				3FBE671621D7413D0062DAA8 /* Johannes Vermeer.png */,
+				3FBE671721D7413D0062DAA8 /* Leonardo da Vinci.png */,
+				3FBE671821D7413D0062DAA8 /* Titian (Tiziano Vecellio).png */,
+				3FBE671921D7413D0062DAA8 /* Vincent van Gogh.png */,
+			);
+			path = author;
+			sourceTree = "<group>";
+		};
+		3FEE520121D618030083BA92 /* ARfunc */ = {
+			isa = PBXGroup;
+			children = (
+				3FEE51FF21D617E90083BA92 /* ARtShowViewController.swift */,
+			);
+			path = ARfunc;
+			sourceTree = "<group>";
+		};
+		3FEE520221D6185B0083BA92 /* works */ = {
+			isa = PBXGroup;
+			children = (
+				3FEE520321D6185B0083BA92 /* p0.jpeg */,
+				3FEE520421D6185B0083BA92 /* p1.jpeg */,
+				3FEE520521D6185B0083BA92 /* p2.jpeg */,
+				3FEE520621D6185B0083BA92 /* p3.jpeg */,
+				3FEE520721D6185B0083BA92 /* sun-halo.png */,
+			);
+			path = works;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,11 +313,22 @@
 				3F3372BE21D318A2002A6C88 /* LaunchScreen.storyboard in Resources */,
 				3FA48AAB21D4F50200A7302B /* Starry Night.png in Resources */,
 				3FA48AAC21D4F50200A7302B /* The Last Supper.png in Resources */,
+				3FBE671E21D7413E0062DAA8 /* Vincent van Gogh.png in Resources */,
 				3FA48AA721D4F50200A7302B /* Adoration of the Magi.png in Resources */,
 				3FA48AAA21D4F50200A7302B /* Mona Lisa.png in Resources */,
 				3FA48AA921D4F50200A7302B /* Girl with a Pearl Earring.png in Resources */,
 				3F3372BB21D318A2002A6C88 /* Assets.xcassets in Resources */,
 				3F3372B921D318A1002A6C88 /* Main.storyboard in Resources */,
+				3FBE671A21D7413E0062DAA8 /* Hieronymus Bosch.png in Resources */,
+				3FEE520A21D6185B0083BA92 /* p2.jpeg in Resources */,
+				3FEE520921D6185B0083BA92 /* p1.jpeg in Resources */,
+				3FEE520B21D6185B0083BA92 /* p3.jpeg in Resources */,
+				3FBE671B21D7413E0062DAA8 /* Johannes Vermeer.png in Resources */,
+				3FBE671C21D7413E0062DAA8 /* Leonardo da Vinci.png in Resources */,
+				3FEE520C21D6185B0083BA92 /* sun-halo.png in Resources */,
+				3FEE520821D6185B0083BA92 /* p0.jpeg in Resources */,
+				3FBE671D21D7413E0062DAA8 /* Titian (Tiziano Vecellio).png in Resources */,
+				3FCB955D21D754AE001590E2 /* Johann Sebastian Bach - Cello Suite No. 1 in G major (BWV 1007)： I. Prelude(1).mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,11 +339,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F91B81221D721BB0054E64B /* WebPageViewController.swift in Sources */,
 				3F1A85B021D5F4D900EB06FB /* AllFloatButton.swift in Sources */,
 				3FAB8A4D21D36E8300298212 /* VC2.swift in Sources */,
+				3FA1770C21D65AA900453E25 /* RegisterPageVC.swift in Sources */,
+				3F99DD7821D666DD00470FA8 /* ARt.xcdatamodeld in Sources */,
 				3F3372B621D318A1002A6C88 /* ViewController.swift in Sources */,
 				3FA48A9F21D4BA4C00A7302B /* MyViewController.swift in Sources */,
+				3FA1770921D6543100453E25 /* Request.swift in Sources */,
 				3F3372B421D318A1002A6C88 /* AppDelegate.swift in Sources */,
+				3F2A9F3521D676D40034A5F9 /* CardView.swift in Sources */,
+				3F042FD521D6471E00653ACB /* popMenuViewController.swift in Sources */,
+				3F6E5B8421D660EA00F74EAD /* FavsViewController.swift in Sources */,
+				3FEE520021D617E90083BA92 /* ARtShowViewController.swift in Sources */,
+				3F1A85B721D60F2C00EB06FB /* VCtrans.swift in Sources */,
+				3F2A9F3721D69A900034A5F9 /* ArtistView.swift in Sources */,
+				3F2A9F3921D6ACAA0034A5F9 /* DevViewController.swift in Sources */,
+				3F1A85B621D60F2C00EB06FB /* MyScroView.swift in Sources */,
+				3F042FD321D639A400653ACB /* LoginPageVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +556,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F99DD7621D666DD00470FA8 /* ARt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F99DD7721D666DD00470FA8 /* ARtdataModel.xcdatamodel */,
+			);
+			currentVersion = 3F99DD7721D666DD00470FA8 /* ARtdataModel.xcdatamodel */;
+			path = ARt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3F3372A821D318A1002A6C88 /* Project object */;
 }
